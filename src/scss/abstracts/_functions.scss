@@ -1,0 +1,10 @@
+@use 'sass:map';
+@use '../utilities/' as *;
+
+@function clr($color, $shade) {
+  @if map.has-key($colors, $color, $shade) {
+    @return map.get($colors, $color, $shade);
+  } @else {
+    @error '$colors does not have that color!';
+  }
+}
