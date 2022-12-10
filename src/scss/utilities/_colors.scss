@@ -8,7 +8,7 @@
     .bg-#{$color}-#{$shade} {
       background-color: $value;
     }
-    .border-xs-#{$color}-#{$shade} {
+    .border-sm-#{$color}-#{$shade} {
       border: 1px solid $value;
     }
     .border-md-#{$color}-#{$shade} {
@@ -20,5 +20,30 @@
     .border-xl-#{$color}-#{$shade} {
       border: 6px solid $value;
     }
+    .decoration-sm-#{$color}-#{$shade} {
+      text-decoration: underline 1px solid $value;
+    }
+    .decoration-md-#{$color}-#{$shade} {
+      text-decoration: underline 2px solid $value;
+    }
+    .decoration-lg-#{$color}-#{$shade} {
+      text-decoration: underline 4px solid $value;
+    }
+    .decoration-xl-#{$color}-#{$shade} {
+      text-decoration: underline 6px solid $value;
+    }
   }
+}
+
+.border-sm {
+  border: 1px solid;
+}
+.border-md {
+  border: 2px solid;
+}
+.border-lg {
+  border: 4px solid;
+}
+.border-xl {
+  border: 6px solid;
 }

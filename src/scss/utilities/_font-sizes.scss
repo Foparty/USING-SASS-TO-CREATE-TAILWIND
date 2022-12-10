@@ -5,3 +5,19 @@
     font-size: $size-value;
   }
 }
+
+.underline-sm {
+  text-decoration: underline 1px solid;
+}
+
+.underline-md {
+  text-decoration: underline 2px solid;
+}
+
+.underline-lg {
+  text-decoration: underline 4px solid;
+}
+
+.underline-xl {
+  text-decoration: underline 6px solid;
+}
