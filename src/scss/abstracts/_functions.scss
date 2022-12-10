@@ -1,5 +1,5 @@
 @use 'sass:map';
-@use '../utilities/' as *;
+// @use '../abstracts/' as *;
 
 @function clr($color, $shade) {
   @if map.has-key($colors, $color, $shade) {
