@@ -1,4 +1,4 @@
-@use "../abstracts/colors" as *;
+@use '../abstracts/colors' as *;
 
 @each $color, $shade-map in $colors {
   @each $shade, $value in $shade-map {
@@ -7,6 +7,18 @@
     }
     .bg-#{$color}-#{$shade} {
       background-color: $value;
+    }
+    .border-xs-#{$color}-#{$shade} {
+      border: 1px solid $value;
+    }
+    .border-md-#{$color}-#{$shade} {
+      border: 2px solid $value;
+    }
+    .border-lg-#{$color}-#{$shade} {
+      border: 4px solid $value;
+    }
+    .border-xl-#{$color}-#{$shade} {
+      border: 6px solid $value;
     }
   }
 }
