@@ -4,3 +4,7 @@
 @use './utilities/' as *;
 @use './abstracts/' as *;
 @use './vendor/' as *;
+
+body {
+  background-color: #000;
+}
