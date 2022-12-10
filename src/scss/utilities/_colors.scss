@@ -20,6 +20,18 @@
     .border-xl-#{$color}-#{$shade} {
       border: 6px solid $value;
     }
+    .outline-sm-#{$color}-#{$shade} {
+      outline: 1px solid $value;
+    }
+    .outline-md-#{$color}-#{$shade} {
+      outline: 2px solid $value;
+    }
+    .outline-lg-#{$color}-#{$shade} {
+      outline: 4px solid $value;
+    }
+    .outline-xl-#{$color}-#{$shade} {
+      outline: 6px solid $value;
+    }
     .decoration-sm-#{$color}-#{$shade} {
       text-decoration: underline 1px solid $value;
     }
@@ -46,4 +58,17 @@
 }
 .border-xl {
   border: 6px solid;
+}
+
+.outline-sm {
+  outline: 1px solid;
+}
+.outline-md {
+  outline: 2px solid;
+}
+.outline-lg {
+  outline: 4px solid;
+}
+.outline-xl {
+  outline: 6px solid;
 }
