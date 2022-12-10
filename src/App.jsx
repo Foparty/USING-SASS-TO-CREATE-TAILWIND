@@ -6,7 +6,13 @@ function App() {
 
   return (
     <div className='App'>
-      <h2 className='underline-md border-xl p-4'>so for some reason that was playing with me</h2>
+      <div className='container'>
+        <div className='grid gap-xs w-full justify-center align-center'>
+          <div className='test bg-blue-500'>test 6</div>
+          <div className='test bg-blue-500'>test 6</div>
+          <div className='test bg-blue-500'>test 6</div>
+        </div>
+      </div>
     </div>
   );
 }
