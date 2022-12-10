@@ -1,0 +1,35 @@
+@use '../abstracts/borders' as *;
+
+@each $size-name, $size-value in $borders {
+  .rounded-#{$size-name} {
+    border-radius: $size-value;
+  }
+  .rounded-t-#{$size-name} {
+    border-top-left-radius: $size-value;
+    border-top-right-radius: $size-value;
+  }
+  .rounded-r-#{$size-name} {
+    border-top-right-radius: $size-value;
+    border-bottom-right-radius: $size-value;
+  }
+  .rounded-b-#{$size-name} {
+    border-bottom-left-radius: $size-value;
+    border-bottom-right-radius: $size-value;
+  }
+  .rounded-l-#{$size-name} {
+    border-top-left-radius: $size-value;
+    border-bottom-left-radius: $size-value;
+  }
+  .rounded-tl-#{$size-name} {
+    border-top-left-radius: $size-value;
+  }
+  .rounded-tr-#{$size-name} {
+    border-top-right-radius: $size-value;
+  }
+  .rounded-bl-#{$size-name} {
+    border-bottom-left-radius: $size-value;
+  }
+  .rounded-br-#{$size-name} {
+    border-bottom-right-radius: $size-value;
+  }
+}
