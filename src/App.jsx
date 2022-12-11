@@ -46,6 +46,7 @@ function App() {
           <h2 className='col-sm-4 my-1 py-2 outline-xl'>item 8</h2>
           <h2 className='col-sm-4 my-1 py-2 outline-xl'>item 9</h2>
           <h2 className='col-sm-4 my-1 py-2 outline-xl'>item 10</h2>
+          <h2 className='col-sm-4 my-1 py-2 outline-xl'>item 10</h2>
         </div>
       </div>
     </div>
