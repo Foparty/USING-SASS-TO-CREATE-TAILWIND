@@ -8,7 +8,7 @@ function App() {
     <div className='App'>
       <div className='container'>
         <div className='grid gap-sm py-4'>
-          <div className='col-md-9 bg-red-500  my-4 p-4 rounded-l-xl'>test 6</div>
+          <div className='col-md-9 bg-red-500 shadow-sm my-4 p-4 rounded-l-xl'>test 6</div>
           <div className='col-md-3 bg-blue-500  my-4 p-4 rounded-r-xl'>test 6</div>
           <div className='col-md-4 bg-blue-500 shadow-lg my-4 p-4 rounded-bl-xl'>test 6</div>
           <div className='col-md-3 bg-blue-500 shadow-xl my-4 p-4'>test 6</div>
