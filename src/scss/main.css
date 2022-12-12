@@ -13564,4 +13564,9 @@
   border-bottom-right-radius: 9999px;
 }
 
+body {
+  background: #333;
+  color: white;
+}
+
 /*# sourceMappingURL=main.css.map */
