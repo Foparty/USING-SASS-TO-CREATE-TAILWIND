@@ -376,6 +376,14 @@
   background-color: transparent;
 }
 
+.gradient-1 {
+  background-image: linear-gradient(90deg, #ff7170 2.34%, #ffe57f 100.78%);
+}
+
+.gradient-2 {
+  background-image: linear-gradient(90deg, #4ca5ff 2.34%, #b673f8 100.78%);
+}
+
 .clr-primary-400 {
   color: purple;
 }
